@@ -12,7 +12,7 @@ const io = socketio(server);
 
 require("dotenv").config();
 
-const port = process.env.PORT;
+const port = 3001;
 const publicDirectoryPath = path.join(__dirname, "../public");
 
 app.use(express.static(publicDirectoryPath));
